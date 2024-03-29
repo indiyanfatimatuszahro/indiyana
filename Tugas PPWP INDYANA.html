@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+       <title>NAMA PROFILE</title>
+</head>
+<body>
+      <h1 style="text-align:center;">NAMA PROFILE</h1>
+	  <table border="1" cellspacing="0" align="center" cellpadding="5" width="800">
+	  <tr align="center">
+	      <td>Foto</td>
+		  <td><img src="C:\Users\Asus\Downloads\indiyana.jpeg" width=300 height=400</td>
+	  </tr>
+	  <tr>
+	      <td>Nama</td>
+		  <td>Indiyana Fatimatus Zahro</td>
+	  </tr>
+	  <tr>
+	      <td>TTL</td>
+		  <td>Brebes,05 september 2006</td>
+	  </tr>
+	  <tr>
+	      <td>Agama</td>
+		  <td><select name="agama">
+		  <option>ISLAM</option>
+		  <option>KRISTEN</option>
+		  <option>KHATOLIK</option>
+		  <option>KHONGHUCU</option>
+		  <option>BUDHA</option>
+		  <option>HINDU</option>
+		  </select>
+	  </tr>
+<tr>
+<td>Jenis Kelamin</td>
+<td><form action="proses.php" method="get">
+    <select name='jenis kelamin'>
+      <option value='Laki-laki'>perempuan</option>
+      <option value='Perempuan'>laki-laki</option>
+    </select></form></td>
+</tr>
+<tr>
+<td>Pekerjaan</td>
+<td><select name="subjects" id="subjects">
+    <option value="MAHASISWA">MAHASISWA</option>
+    <option value="WIRASWASTA">WIRASWASTA</option>
+    <option value="BUMN">BUMN</option>
+    <option value="PNS">PNS</option>
+</select></td>
+</tr>
+<tr>
+<tr>
+	  <td>Hobi</td>
+		  <td><ol>
+       <li>Travelling</li>
+            <ul>
+                <li>Muncak</li>
+                <li>Mantai</li>
+                <li>Ziaroh walisongo</li>
+            </ul>
+       </li>
+        <li>Membaca
+            <ul>
+                <li>Novel</li>
+				<li>Cerpen</li>
+				<li>Al qur'an</li>
+            </ul>
+        </li>
+        <li>Makan</li>
+		<ul>
+                <li>Ayam katsu solaria</li>
+                <li>Nasi bakar</li>
+                <li>Mie gacoan</li>
+            </ul>
+	</td>
+    </ol>
+	</tr>
+<tr>
+<td>Motivasi</td>
+<td><ul>
+    <li>Jangan takut gagal jadikan kegagalan itu sebagai pelajaran untuk memacu kita berusaha lebih keras lagi meraih yang kita inginkan</li>
+    <li>Tantangan adalah apa yang membuat hidup menarik dan mengatasinya adalah apa yang membuat hidup bermakna.</li>
+    <li>Jangan ragu untuk mencoba, karena tanpa mencoba kita tidak pernah tahu hasilnya.</li>
+</ul></td>
+</tr>
+<tr>
+<td>NIM</td>
+<td>23030360003</td>
+</tr>
+<tr>
+<td>Kelas</td>
+<td>2 A</td>
+</tr>
+<tr>
+<td>Jurusan</td>
+<td> <input type="radio" id="PAI" name="fav_language" value="PAI">
+  <label for="PAI">PAI</label><br>
+  <input type="radio" id="MPI" name="fav_language" value="MPI">
+  <label for="MPI">MPI</label><br>
+  <input type="radio" id="PBA" name="fav_language" value="PBA">
+  <label for="PBA">PBA</label>
+  <input type="radio" id="PBI" name="fav_language" value="PBI">
+  <label for="PBI">PBI</label><br>
+  <input type="radio" id="PIAUD" name="fav_language" value="PIAUD">
+  <label for="PIAUD">PIAUD</label><br>
+  <input type="radio" id="PGMI" name="fav_language" value="PGMI">
+  <label for="PGMI">PGMI</label></td>
+</tr>
+<tr>
+<td>Kuliah</td>
+<td>UIN WALISONGO <a href="https://walisongo.ac.id/">klik disini</a></td>
+</tr>
+<tr>
+<td>Phone</td>
+<td>081325833071</td>
+</tr>
+<tr>
+<td>Email</td>
+<td><a href="mailto:indiyana050906@gmail.com">indiyana050906@gmail.com</a></td>
+</tr>
+<tr>
+<td>Deskripsi Diri</td>
+<td>Indiyana f.z adalah mahasiswa UIN WALISONGO yang baik, pinter, jujur, bijaksana, imut</td>
+</tr>
+</table>
+<body>
+ <p>link html ada disini ya pak:) <a href="">link html</a></p>
+</body>
+</html>
